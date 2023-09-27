@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 70px;
+    margin-bottom: 22px;
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+input {
+    padding: 15px;
+    font-size: 20px;
+    width: 321px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #007FFF;
+}
+button {
+    width: 155px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0071E3;
+    border-width: 0px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    width: 282px;
+height: 90px;
+border-radius: 10px;
+border: 1px solid #007FFF;
+background: #F0F0F0;
+margin-top: 20px;
+position: relative;
+}
+.text {
+    margin-top: 21px;
+    margin-left: 25px;
+    position: absolute;
+    color: #000;
+font-size: 20px;
+font-weight: 600;
+}
+.clock {
+    margin-left: 25px;
+    margin-top: 60px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.55);
+font-family: Gilroy;
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
+.cancal {
+    margin-top: 20px;
+    margin-left: 240px;
+}
